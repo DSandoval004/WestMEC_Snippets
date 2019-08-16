@@ -2,7 +2,7 @@
     "CL": {
         "prefix": "cl",
         "body": [
-            "console.log($0);"
+            "console.log('$0');"
         ],
         "description": "To log to the console."
     },
@@ -56,26 +56,5 @@
             "document.querySelectorAll('${0:query}')"
         ],
         "description": "document.querySelectorAll()"
-    },
-    "VAR": {
-        "prefix": "var",
-        "body": [
-            "var ${1:name} = ${0:value};"
-        ],
-        "description": "sets up a variable"
-    },
-    "CONST": {
-        "prefix": "const",
-        "body": [
-            "const ${1:name} = ${0:value};"
-        ],
-        "description": "sets up a variable"
-    },
-    "LET": {
-        "prefix": "let",
-        "body": [
-            "let ${1:name} = ${0:value};"
-        ],
-        "description": "sets up a variable"
     }
 }
