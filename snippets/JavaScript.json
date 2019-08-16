@@ -1,0 +1,81 @@
+{
+    "CL": {
+        "prefix": "cl",
+        "body": [
+            "console.log($0);"
+        ],
+        "description": "To log to the console."
+    },
+    "FUN": {
+        "prefix": "fun",
+        "body": [
+            "function ${1:name}(${2:par}) {",
+            "\t$0",
+            "};"
+        ],
+        "description": "Creates a function"
+    },
+    "DGEBID": {
+        "prefix": "dgebid",
+        "body": [
+            "document.getElementById('${0:ID}')"
+        ],
+        "description": "document.getElementById();"
+    },
+    "DGEBCN": {
+        "prefix": "dgebcn",
+        "body": [
+            "document.getElementsByClassName('${0:ClassName}')"
+        ],
+        "description": "document.getElementsByClassName()"
+    },
+    "DGEBN": {
+        "prefix": "dgebn",
+        "body": [
+            "document.getElementsByName('${0:name}')"
+        ],
+        "description": "document.getElementsByName()"
+    },
+    "DGEBTN": {
+        "prefix": "dgebtn",
+        "body": [
+            "document.getElementsByTagName('${0:tagName}')"
+        ],
+        "description": "document.getElementsByTagName()"
+    },
+    "DQS": {
+        "prefix": "dqs",
+        "body": [
+            "document.querySelector('${0:query}')"
+        ],
+        "description": "document.querySelector()"
+    },
+    "DQSA": {
+        "prefix": "dqsa",
+        "body": [
+            "document.querySelectorAll('${0:query}')"
+        ],
+        "description": "document.querySelectorAll()"
+    },
+    "VAR": {
+        "prefix": "var",
+        "body": [
+            "var ${1:name} = ${0:value};"
+        ],
+        "description": "sets up a variable"
+    },
+    "CONST": {
+        "prefix": "const",
+        "body": [
+            "const ${1:name} = ${0:value};"
+        ],
+        "description": "sets up a variable"
+    },
+    "LET": {
+        "prefix": "let",
+        "body": [
+            "let ${1:name} = ${0:value};"
+        ],
+        "description": "sets up a variable"
+    }
+}

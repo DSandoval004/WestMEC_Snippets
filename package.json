@@ -1,0 +1,27 @@
+{
+    "name": "west-mec-snippets",
+    "displayName": "West-MEC Snippets",
+    "description": "Custom snippets for West MEC coding to use",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.37.0"
+    },
+    "categories": [
+        "Snippets"
+    ],
+    "contributes": {
+        "snippets": [{
+                "language": "javascript",
+                "path": "./snippets/JavaScript.json"
+            },
+            {
+                "language": "html",
+                "path": "./snippets/HTML.json"
+            },
+            {
+                "language": "css",
+                "path": "./snippets/CSS.json"
+            }
+        ]
+    }
+}
